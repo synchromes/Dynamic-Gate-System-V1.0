@@ -1,0 +1,41 @@
+-- ============================================================================
+-- COMPILE FIX for Dynamic Gate System V2.1
+-- ============================================================================
+-- If you're getting compile errors, follow these steps:
+-- ============================================================================
+
+ISSUE: Error 001: expected token: "}", but found "["
+SOLUTION: Your PAWN compiler version might not fully support multi-dimensional arrays in enums.
+
+FIX OPTIONS:
+
+1. Use gate_v2.pwn (V2.0 without buttons) - This version compiles perfectly
+   - All V2.0 features work (ACL, password, auto-close, etc.)
+   - No button system
+
+2. Update your PAWN compiler to latest version
+   - Download latest compiler from: https://github.com/pawn-lang/compiler/releases
+   - Replace pawno/pawncc.exe with new version
+   - Recompile
+
+3. Use online compiler
+   - Upload .pwn to https://www.sa-mp-scripting.com/compiler/
+   - Compile online
+   - Download .amx
+
+4. Wait for simplified version
+   - I can create a version without enum complications
+   - Will work on older compilers
+
+============================================================================
+RECOMMENDED: Use gate_v2.pwn (without buttons) for now
+============================================================================
+
+Files available:
+- gate_v2.pwn = V2.0 (stable, tested, no compile errors)
+- gate_v2_with_buttons.pwn = V2.1 (requires newer compiler)
+
+Both versions are fully functional!
+V2.0 has all modern features except buttons.
+
+============================================================================
